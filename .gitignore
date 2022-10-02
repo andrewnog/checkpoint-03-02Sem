@@ -1,0 +1,7 @@
+### Arquivos que não subirão no repo
+
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+.aws/credentials
