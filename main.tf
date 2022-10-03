@@ -10,12 +10,6 @@ terraform {
   }
 }
 
-### REGION
-provider "aws" {
-    region                  = "${var.aws_region}"
-    shared_credentials_file = ".aws/credentials"
-}
-
 ### INICIO DA CHAMADA DOS MODULOS
 module "vpc" {
     source          = "./modules/vpc"
